@@ -42,7 +42,7 @@ class QuestionTableSeeder extends Seeder
             ['questions_id' => '20', 'description' => 'Ao transferir a propriedade, mudar de município ou for alterar qualquer uma das características do veículo será obrigatória a expedição:', 'categories_id' => 2], 
             
             // Infrações e penalidades
-            ['questions_id' => '21', 'description' => '', 'categories_id' => 3], 
+            ['questions_id' => '21', 'description' => 'Após uma forte chuva você está trafegando por uma avenida e passa sobre uma poça d’água molhando alguns pedestres na calçada. Essa atitude é considerada pelas autoridades como:', 'categories_id' => 3], 
             ['questions_id' => '22', 'description' => '', 'categories_id' => 3], 
             ['questions_id' => '23', 'description' => '', 'categories_id' => 3], 
             ['questions_id' => '24', 'description' => '', 'categories_id' => 3], 
