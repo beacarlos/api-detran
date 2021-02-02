@@ -18,7 +18,8 @@ class CreateQuestionsTable extends Migration
             $table->longText('description');	
             $table->integer('categories_id')->unsigned();
             $table->foreign('categories_id')->references('categories_id')->on('categories');
-            $table->timestamps();
+            $table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
+            $table->timestamp('updated_at')->default(DB::raw('CURRENT_TIMESTAMP'));
         });
     }
 

@@ -21,7 +21,8 @@ class CreateAnswersTable extends Migration
             $table->foreign('categories_id')->references('categories_id')->on('categories');
             $table->integer('questions_id')->unsigned();
             $table->foreign('questions_id')->references('questions_id')->on('questions');
-            $table->timestamps();
+            $table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
+            $table->timestamp('updated_at')->default(DB::raw('CURRENT_TIMESTAMP'));
         });
     }
 
