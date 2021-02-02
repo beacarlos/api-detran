@@ -17,7 +17,14 @@ class CategoriesTableSeeder extends Seeder
         DB::table('categories')->truncate();
         DB::statement('SET FOREIGN_KEY_CHECKS=1;');
 
-        $date_category = [['name' => 'Direção Defensiva'], ['name' => 'Legislação'], ['name' => 'Mecânica'], ['name' => 'Meio ambiente'], ['name' => 'Primeiros socorros'], ['name' => 'Placas']];
+        $date_category = [
+            ['categories_id' => 1, 'name' => 'Direção Defensiva'], 
+            ['categories_id' => 2, 'name' => 'Legislação'], 
+            ['categories_id' => 3, 'name' => 'Mecânica'], 
+            ['categories_id' => 4, 'name' => 'Meio ambiente'], 
+            ['categories_id' => 5, 'name' => 'Primeiros socorros'], 
+            ['categories_id' => 6, 'name' => 'Placas']
+        ];
         Category::insert($date_category);
     }
 }
