@@ -43,15 +43,15 @@ class QuestionTableSeeder extends Seeder
             
             // Infrações e penalidades
             ['questions_id' => '21', 'description' => 'Após uma forte chuva você está trafegando por uma avenida e passa sobre uma poça d’água molhando alguns pedestres na calçada. Essa atitude é considerada pelas autoridades como:', 'categories_id' => 3], 
-            ['questions_id' => '22', 'description' => '', 'categories_id' => 3], 
-            ['questions_id' => '23', 'description' => '', 'categories_id' => 3], 
-            ['questions_id' => '24', 'description' => '', 'categories_id' => 3], 
-            ['questions_id' => '25', 'description' => '', 'categories_id' => 3], 
-            ['questions_id' => '26', 'description' => '', 'categories_id' => 3], 
-            ['questions_id' => '27', 'description' => '', 'categories_id' => 3], 
-            ['questions_id' => '28', 'description' => '', 'categories_id' => 3], 
-            ['questions_id' => '29', 'description' => '', 'categories_id' => 3], 
-            ['questions_id' => '30', 'description' => '', 'categories_id' => 3], 
+            ['questions_id' => '22', 'description' => 'Estacionar na pista de rolamento de estradas, rodovias, vias de trânsito rápido e vias dotadas de acostamento, é uma infração gravíssima. Qual a medida administrativa adotada para esta infração?', 'categories_id' => 3], 
+            ['questions_id' => '23', 'description' => 'A penalidade de advertência por escrito poderá ser aplicada pela autoridade, quando entender esta providência como mais educativa, em infrações de natureza:', 'categories_id' => 3], 
+            ['questions_id' => '24', 'description' => 'Usar qualquer veículo para, deliberadamente, interromper, restringir ou perturbar a circulação na via sem autorização do órgão ou entidade de trânsito com circunscrição sobre ela, é infração _________, com as penalidades de multa, no valor de R$ ________, e ___________ e medida administrativa de ________. Assinale a alternativa que completa a afirmativa:', 'categories_id' => 3], 
+            ['questions_id' => '25', 'description' => 'Conduzir bicicleta em passeios onde não seja permitida a circulação desta, constitui infração de natureza:', 'categories_id' => 3], 
+            ['questions_id' => '26', 'description' => 'Estacionar o veículo em desacordo com a regulamentação estabelecida pela autoridade de trânsito, acarretará:', 'categories_id' => 3], 
+            ['questions_id' => '27', 'description' => 'Roberto foi surpreendido em 01/08/07 promovendo na via pública competição esportiva, sem permissão da autoridade de trânsito com circunscrição sobre a via. Se ele cometer a mesma infração em 01/07/08 lhe serão aplicadas as seguintes penalidades:', 'categories_id' => 3], 
+            ['questions_id' => '28', 'description' => 'Assinale a infração gravíssima:', 'categories_id' => 3], 
+            ['questions_id' => '29', 'description' => 'É infração gravíssima para o condutor de motocicleta, motoneta ou ciclomotor:', 'categories_id' => 3], 
+            ['questions_id' => '30', 'description' => 'O condutor habilitado na categoria “B” que dirigir uma motocicleta será punido com:', 'categories_id' => 3], 
 
             // Sinalização de trânsito
             ['questions_id' => '31', 'description' => '', 'categories_id' => 4], 
