@@ -14,7 +14,10 @@ class CreateQuestionsTable extends Migration
     public function up()
     {
         Schema::create('questions', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('questions_id');
+            $table->longText('description');	
+            $table->integer('categories_id')->unsigned();
+            $table->foreign('categories_id')->references('categories_id')->on('categories');
             $table->timestamps();
         });
     }
