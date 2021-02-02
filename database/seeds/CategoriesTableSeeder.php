@@ -19,11 +19,13 @@ class CategoriesTableSeeder extends Seeder
 
         $date_category = [
             ['categories_id' => 1, 'name' => 'Direção Defensiva'], 
-            ['categories_id' => 2, 'name' => 'Legislação'], 
-            ['categories_id' => 3, 'name' => 'Mecânica'], 
-            ['categories_id' => 4, 'name' => 'Meio ambiente'], 
-            ['categories_id' => 5, 'name' => 'Primeiros socorros'], 
-            ['categories_id' => 6, 'name' => 'Placas']
+            ['categories_id' => 2, 'name' => 'Processos de habilitação'], 
+            ['categories_id' => 3, 'name' => 'Infrações e penalidades'], 
+            ['categories_id' => 4, 'name' => 'Sinalização de trânsito'], 
+            ['categories_id' => 5, 'name' => 'Normas de circulação'], 
+            ['categories_id' => 6, 'name' => 'Primeiros socorros'],
+            ['categories_id' => 7, 'name' => 'Meio ambiente e cidadania'],
+            ['categories_id' => 8, 'name' => 'Mecânica básica de veículos']
         ];
         Category::insert($date_category);
     }
