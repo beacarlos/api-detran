@@ -11,4 +11,9 @@ class Question extends Model
     protected $primaryKey = 'questions_id';
     const CREATED_AT = 'created_at';
     const UPDATED_AT = 'updated_at';
+    
+    public function answer()
+    {
+        return $this->hasMany('App\Answer', 'questions_id', 'questions_id');
+    }
 }
